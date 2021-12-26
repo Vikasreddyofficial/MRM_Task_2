@@ -1,12 +1,13 @@
+
 body{
-    margin:0;
-    padding:0;
-    background-image:url("images/Rover.jpg");
+    height:100%;
+    
+    background-image:url("images/Rover\ 7.jpg");
     background-size:cover;
     background-repeat:no-repeat;
+    background-attachment: fixed;
     font-family: sans-serif;
-    h1{alignment:center;}
-
+    
 }
 .flex-box{
    positon:realtive;
@@ -50,7 +51,8 @@ h1{
     border-bottom: 1px black solid;
     padding-top:10px;
     font-size:15px;
-    font-size:15px;color:white;
+    font-size:15px; 
+    color:white;
 }
 .loginhead input{
     width:100%;
