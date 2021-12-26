@@ -8,6 +8,11 @@ body{
     h1{alignment:center;}
 
 }
+.flex-box{
+    display: flex;
+   
+}
+    
 .avatar{
     width:100px;
     height:100px;
