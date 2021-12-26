@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background-image:url("Rover.jpg");
+    background-image:url("images/Rover.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     font-family: sans-serif;
@@ -9,8 +9,7 @@ body{
 
 }
 .flex-box{
-    display: flex;
-   
+   positon:realtive;
 }
     
 .avatar{
@@ -24,7 +23,7 @@ body{
 .loginhead{
     width: 520px;
     height:620px;
-    background-color:black;
+    background-color:transparent;
     color:white;
     top:50%;
     left:50%;
@@ -32,10 +31,15 @@ body{
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     border:2.5px white solid;
-    padding:50px;
+    padding:30px;
 }
 h1{
     text-align:center;
+    font-family: cursive;
+}
+.loginhead label
+{
+    font-size:25px;
     font-family: cursive;
 }
 .loginhead input[type = "text"],input[type = "password"],input[type="email"]
@@ -43,9 +47,10 @@ h1{
     background:transparent;
     outline:none;
     border:none;
-    border-bottom: 1px gray solid;
+    border-bottom: 1px black solid;
     padding-top:10px;
-    color:white;
+    font-size:15px;
+    font-size:15px;color:white;
 }
 .loginhead input{
     width:100%;
@@ -60,9 +65,9 @@ h1{
     outline:none;
 }
 .loginhead a{
-     font-size:12px;
+     font-size:17px;
      line-height:20px;
-     color:darkgrey;
+     color:white;
 }
 .loginhead input[type="button"]:hover
 {
@@ -73,3 +78,4 @@ h1{
 {
    color:red;
 }
+
